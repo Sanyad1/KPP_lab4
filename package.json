@@ -1,0 +1,42 @@
+{
+  "name": "cordova-test-app",
+  "version": "1.0.0",
+  "description": "Test web pages on mobile devices inside a Cordova container",
+  "keywords": [
+    "cordova",
+    "web",
+    "app",
+    "mobile",
+    "device",
+    "test"
+  ],
+  "main": "www/index.html",
+  "scripts": {
+    "start": "cordova serve",
+    "cordova": "cordova",
+    "ios": "cordova emulate ios",
+    "android": "cordova emulate android",
+    "winphone": "cordova emulate windows -- --phone",
+    "windows": "cordova emulate windows -- --win"
+  },
+  "author": {
+    "name": "Swift",
+    "url": ""
+  },
+  "license": "MIT",
+  "homepage": "",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "dependencies": {
+    "cordova": "^5.0.0",
+    "cordova-android": "^6.3.0"
+  },
+  "devDependencies": {},
+  "cordova": {
+    "platforms": [
+      "android"
+    ]
+  }
+}
